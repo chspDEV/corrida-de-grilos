@@ -1,33 +1,39 @@
-# Corrida de Grilo
+# Corrida de Grilos com Threads em Java
 
-A [libGDX](https://libgdx.com/) project generated with [gdx-liftoff](https://github.com/libgdx/gdx-liftoff).
+![Linguagem](https://img.shields.io/badge/Java-100%25-orange)
+![Framework](https://img.shields.io/badge/Engine-LWJGL%203-blue)
+![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-green)
 
-This project was generated with a template including simple application launchers and an `ApplicationAdapter` extension that draws libGDX logo.
+> Um projeto gráfico que utiliza threads em Java para visualizar uma corrida de grilos.
 
-## Platforms
+## 🎯 Objetivo
 
-- `core`: Main module with the application logic shared by all platforms.
-- `lwjgl3`: Primary desktop platform using LWJGL3; was called 'desktop' in older docs.
+Este projeto serve como uma demonstração prática de multithreading em Java. Cada grilo na corrida é controlado por sua própria `Thread`, permitindo que todos se movam de forma concorrente e independente. O resultado é uma simulação visual de processos paralelos competindo para alcançar um objetivo.
 
-## Gradle
+## 🛠️ Tecnologias Utilizadas
 
-This project uses [Gradle](https://gradle.org/) to manage dependencies.
-The Gradle wrapper was included, so you can run Gradle tasks using `gradlew.bat` or `./gradlew` commands.
-Useful Gradle tasks and flags:
+-   **Linguagem:** Java
+-   **Biblioteca Gráfica:** LWJGL 3 (Lightweight Java Game Library)
+-   **Automação de Build:** Gradle
 
-- `--continue`: when using this flag, errors will not stop the tasks from running.
-- `--daemon`: thanks to this flag, Gradle daemon will be used to run chosen tasks.
-- `--offline`: when using this flag, cached dependency archives will be used.
-- `--refresh-dependencies`: this flag forces validation of all dependencies. Useful for snapshot versions.
-- `build`: builds sources and archives of every project.
-- `cleanEclipse`: removes Eclipse project data.
-- `cleanIdea`: removes IntelliJ project data.
-- `clean`: removes `build` folders, which store compiled classes and built archives.
-- `eclipse`: generates Eclipse project data.
-- `idea`: generates IntelliJ project data.
-- `lwjgl3:jar`: builds application's runnable jar, which can be found at `lwjgl3/build/libs`.
-- `lwjgl3:run`: starts the application.
-- `test`: runs unit tests (if any).
+## ⚙️ Como Executar
 
-Note that most tasks that are not specific to a single project can be run with `name:` prefix, where the `name` should be replaced with the ID of a specific project.
-For example, `core:clean` removes `build` folder only from the `core` project.
+O projeto utiliza o Gradle Wrapper, então não é necessário ter o Gradle instalado na máquina.
+
+1.  **Clone o repositório:**
+    ```bash
+    git clone [https://github.com/chspDEV/corrida-de-grilos.git](https://github.com/chspDEV/corrida-de-grilos.git)
+    ```
+2.  **Acesse a pasta do projeto:**
+    ```bash
+    cd corrida-de-grilos
+    ```
+3.  **Execute o projeto:**
+    * No Windows:
+        ```bash
+        gradlew.bat run
+        ```
+    * No Linux ou macOS:
+        ```bash
+        ./gradlew run
+        ```

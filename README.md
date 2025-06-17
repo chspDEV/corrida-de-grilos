@@ -1,7 +1,7 @@
 # Corrida de Grilos com Threads em Java
 
 ![Linguagem](https://img.shields.io/badge/Java-100%25-orange)
-![Framework](https://img.shields.io/badge/Engine-LWJGL%203-blue)
+![Framework](https://img.shields.io/badge/Framework-LibGDX-red)
 ![Status](https://img.shields.io/badge/status-conclu%C3%ADdo-green)
 
 > Um projeto gráfico que utiliza threads em Java para visualizar uma corrida de grilos.
@@ -13,7 +13,7 @@ Este projeto serve como uma demonstração prática de multithreading em Java. C
 ## 🛠️ Tecnologias Utilizadas
 
 -   **Linguagem:** Java
--   **Biblioteca Gráfica:** LWJGL 3 (Lightweight Java Game Library)
+-   **Framework de Jogo:** LibGDX
 -   **Automação de Build:** Gradle
 
 ## ⚙️ Como Executar
